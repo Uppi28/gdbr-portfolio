@@ -5,6 +5,7 @@ import callCenter from '../../assets/images/call-center.png';
 import expert from '../../assets/images/expert.png';
 import pricing from '../../assets/images/pricing.png';
 import milestone from '../../assets/images/milestone.png';
+import certificationImg from "../../assets/images/certification-bro.svg";
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
 const Introduction = () => {
@@ -71,11 +72,27 @@ const Introduction = () => {
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter  here" type="hidden" name="access key" value={API_ACCESS_KEY} />
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter Name here" type="text" name="name" required />
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter Email here" type="email" name="email" required />
-                    {/* <TextareaAutosize className="border" placeholder="Enter your message" width="320px" name="message" required></TextareaAutosize> */}
                     <div class="h-captcha" data-captcha="true"></div>
                     <Button variant="contained" sx={{height: '2.5rem', width: '200px'}} type="submit">Submit Form</Button>
                 </form>
             </div>
+
+            <div className="flex">
+                <div className="w-1/2 flex items-start justify-center flex-col p-16 text-2xl text-gray-600">
+                Gayathri Devi - A CERT-In empanelled vendor, determines the effectiveness of IT Security controls over information resources and assets that support operations in the auditee organisations, and will identify vulnerabilities in their IT infrastructure. 
+                Indian Computer Emergency Response Team (CERT-In) empanels IT Security Auditing Organisations for auditing, including vulnerability assessment and penetration testing of computer systems, networks and applications of various organisations of the Government and those in other sectors of the Indian economy.
+                <Button variant="contained" sx={{height: '2.5rem', width: 'auto', marginTop: '25px'}} type="submit">
+                    Get CERT-IN safe to host certificate
+                </Button>
+                </div>
+                <img src={certificationImg} alt="Certification" className="w-1/2" />
+            </div>
+            <div className="flex flex-col justify-center items-center p-16 ">
+                <div className="text-3xl font-semibold text-gray-600">Choose Your Right Solution</div>
+                <div className="text-xl text-gray-600">We understand that every business is unique. That is why we collaborate with you to create cybersecurity solutions that complement your business while also meeting your specific security requirements.</div>
+                <div className="font-semibold text-xl">At CYBERNERDS, we provide tailored services for every business, including:</div>
+            </div>
+
 
             <script src="https://web3forms.com/client/script.js" async defer></script>
         </>

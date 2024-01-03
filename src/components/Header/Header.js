@@ -3,7 +3,7 @@ const Header = () => {
         <>
             <div className="flex align-middle justify-between w-full p-6">
                 <div className="flex-1">
-                    Company Logo
+                    Gayathri Devi
                 </div>
                 <div className="flex align-middle justify-between flex-1">
                     <div>HOME</div>
