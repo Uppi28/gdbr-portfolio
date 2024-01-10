@@ -101,7 +101,7 @@ const Introduction = () => {
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter Name here" type="text" name="name" required />
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter Email here" type="email" name="email" required />
                     <div className="h-captcha" data-captcha="true"></div>
-                    <Button variant="contained" sx={{height: '2.5rem', width: '200px'}} type="submit">Submit Form</Button>
+                    <button className="border rounded-md p-4 text-md text-white" type="submit">SUBMIT FORM</button>
                 </form>
             </div>
 
