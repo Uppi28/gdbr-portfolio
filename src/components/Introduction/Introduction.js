@@ -95,9 +95,9 @@ const Introduction = () => {
                     </ul>
                 </div>
             </div>
-            <div className="bg-black">
+            <div className="bg-gradient-to-l hover:bg-gradient-to-r from-sky-500 to-indigo-500 transi duration-700">
                 <form action="https://api.web3forms.com/submit" method="POST" className="flex items-center justify-around p-6">
-                    <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter  here" type="hidden" name="access key" value={API_ACCESS_KEY} />
+                    <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter  here" type="hidden" name="access_key" value={API_ACCESS_KEY} />
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter Name here" type="text" name="name" required />
                     <input className="border rounded-md h-10 w-[300px] px-5" placeholder="Enter Email here" type="email" name="email" required />
                     <div className="h-captcha" data-captcha="true"></div>
@@ -131,6 +131,11 @@ const Introduction = () => {
                         </div>
                     })}
                 </Slider>
+            </div>
+
+            <div className="flex items-center justify-evenly text-3xl p-8 bg-black text-white bg-gradient-to-l hover:bg-gradient-to-r from-sky-500 to-indigo-500 transi duration-700">
+                <p>Want to know more? I am happy to answer your questions.</p>
+                <button className="border rounded-md p-4">CONTACT ME HERE</button>
             </div>
 
 
